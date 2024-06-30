@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+  }  
+  .bgnav{
+    background-image: url(../public/Images/Shape.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar-brand{
+    color: white;
+    font-size:2rem;
+    font-weight: 700;
+    line-height: 35.2px;
+}
+  .nav-item a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+.button1{
+margin-bottom: 20px;
+font-size: 1rem;
+font-weight: 500;
+/* width: 100px; */
+}
+.dropdown-item{
+    color: black;
+}
+.navform{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    /* text-align: end; */
+    /* padding-top: 20px; */
+   
+}
+.navsection{
+    /* border: 1px solid red; */
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%; */
+}
+.ctaimg img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.main{
+    margin: 0px 10px;
+  
+}
+.ctabox h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height:44px;
+    color: white;
+}
+.ctabox h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 35.2px;
+    color: #cbd5e1;
+}
+.ctabox p{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 28.8px;
+    color:white;
+    padding: 20px 0px;
+}
+.ctabtn{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.ctabox{
+    /* border: 1px solid red; */
+    margin: 40px 0px;
+}
+.button2{
+    padding: 10px 24px 10px 24px;
+}
+/*############ Patner section ########### */
+.partnersection{
+    margin: 0px 10px;
+    padding-top: 50%;
+}
+.partnerimg img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heading h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 32.2px;
+}
+/* ###### Itwork section ######## */
+.itworksection{
+    margin: 0px 10px;
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardimg{
+    /* border: 1px solid red; */
+    width: 64px;
+    height: 64px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 32px 16px;
+    margin-bottom: 20px;
+    gap: 16px;
+}
+.card p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.card{
+    border: 2px solid gray;
+}
+/* ####### turpis section####### */
+.turpissection{
+    margin: 0px 10px;
+}
+.launchimg{
+    background-image: url(../public/Images/Shape2.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    /* background-color: gray; */
+}
+.turpisimg img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.turpis h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: center;
+}
+.turpis p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22.4px;
+    padding: 20px 0px;
+    text-align: center;
+}
+/* ###### sagitissection ##### */
+.sagitissection{
+    margin: 0px 10px;
+}
+.sagitis h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: center;
+}
+.sagitis p{
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.sagitisimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ###### nonec section ###### */
+.nonecsection{
+    margin: 0px 10px;
+    
+}
+.nonecimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nonec h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 35.2px; 
+    text-align: center;
+}
+.nonec p{
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 22.4px; 
+    text-align: center;
+}
+/* ####### Launch Section ######## */
+.launchbtn{
+    text-align: center;
+}
+/* ######## footer section ######### */
+.footerbg{
+    background-color: #475569;
+}
+.footersection{
+    margin: 0px 10px;
+    color: white;
+    padding: 80px 0px 20px 0px;
+    text-align: center;
+}
+.footertitle{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 35.2px;
+    color: white;
+}
+.servicelist{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+ }
+ .footerbox{
+    padding: 10px 0px;
+ }
+ .titlefooter{
+    /* border: 1px solid red; */
+    padding: 20px 0px;
+ }
+ .list-unstyled li{
+    padding: 10px 0px;
+ }
+ .box{
+    padding: 15px 0px;
+ }
+
+
+@media(min-width:768px){
+    .navigationmain{
+    /* border: 1px solid green; */
+     margin: 0px 40px;
+}
+
+.main{
+    /* border: 1px solid green; */
+    margin: 0px 30px;
+}
+.ctabox{
+    /* border: 1px solid red; */
+    margin: 60px 0px;
+}
+.ctabox p{
+    /* border: 1px solid green; */
+    padding: 20px 90px;
+}
+/*############ Patner section ########### */
+.partnersection{
+    margin: 0px 40px;
+    padding-top: 60%;     
+    
+}
+/* ###### Itwork section ######## */
+.itworksection{
+    margin: 0px 40px;
+}
+.cardbox{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; 
+}
+.card{
+    width: 200px;
+    height: 300px;
+    /* padding: 32px; */
+}
+/* ####### turpis section####### */
+.turpissection{
+    text-align: center;
+    margin: 0px 40px;
+}
+/* ###### sagitissection ##### */
+.sagitissection{
+    margin: 0px 40px;
+}
+/* ###### nonec section ###### */
+.nonecsection{
+    margin: 0px 40px;
+}
+/* ###### Launch Section ###### */
+.launchimg{
+    /* border: 1px solid red; */
+    height: 800px;
+}
+
+    
+
+/* ######## footer section ######### */
+.footersection{
+    /* border: 1px solid green; */
+    margin: 0px 40px;
+    /* padding-top: 60px; */
+}
+
+
+
+  }
+
+
+
+  @media(min-width:992px){
+.navigationmain{
+/* border: 1px solid green; */
+margin: 0px 87px;
+}
+.navform{
+/* border: 1px solid red; */
+width: 20%;
+display: flex;
+justify-content: space-between;
+}
+.navbar-brand{
+text-align: start;
+/* border: 1px solid red; */
+font-size:3rem;
+font-weight: 800;
+line-height: 52.8px;
+}
+.main{
+    /* border: 1px solid green; */
+    margin: 0px 85px;
+}
+.ctabox h1{
+    text-align: start;
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 79.2px;
+    color: white;
+    text-align: start;
+}
+.ctabox h2{
+    text-align: start;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 61.6px;
+    color: #cbd5e1;
+}
+.ctabox p{
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 38.4px;
+    padding: 10px 0px;
+}
+.button2{
+    padding: 10px 24px 10px 24px;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.ctabtn{
+    text-align: start;
+}
+/* Patner section */
+.partnerimg img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*############ Patner section ########### */
+.partnersection{
+    margin: 0px 86px;
+    padding: 2%;
+}
+.heading h2{
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 61.6px;
+}
+.partnerimg{
+    margin: 0px 86px;
+}
+/* ###### Itwork section ######## */
+.itworksection{
+    margin: 0px 86px;
+}
+.cardbox{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    width: 373px;
+    height: 288px;
+    padding: 32px;
+}
+.card p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+/* ####### turpis section####### */
+.turpissection{
+    margin: 0px 86px;
+}
+.turpis h2{
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 61.6px;
+    text-align: start;
+}
+.turpis p{
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: start;
+}
+.turpis{
+    /* border: 1px solid red; */
+    /* width: 611px; */
+    /* height: 238px; */
+    gap: 24px;
+}
+.turpisimg{
+    /* border: 1px solid red; */
+    /* width:589px; */
+    /* height: 347px; */
+}
+    
+
+/* ###### sagitissection ##### */
+.sagitissection{
+    /* border: 1px solid red; */
+    margin: 0px 86px;
+}
+.sagitis h2{
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 61.6px;
+    text-align: start;
+}
+.sagitis p{
+    font-size:1.2rem;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: start;
+}
+.sagitisimg{
+    /* border: 1px solid red; */
+    width: 368px;
+    height: 575px;
+}
+.sagitis{
+    gap: 32px;
+}
+/* ###### nonec section ###### */
+.nonecsection{
+    /* border: 1px solid red; */
+    margin: 0px 86px;
+}
+.nonec h2{
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 56px; 
+    text-align: start;
+}
+.nonec p{
+    font-size:1.2rem;
+    font-weight: 400;
+    line-height: 36px; 
+    text-align: start;
+}
+.nonecimg{
+    /* border: 1px solid red;   */
+    /* width: 498px; */
+    /* height: 575px; */
+}
+.nonec{
+    /* border: 1px solid red;  */
+    width: 702px; 
+    height: 274px;  
+}
+/* ########### */
+.launchbtn{
+    text-align: start;
+}
+/* ######## footer section ######### */
+.footersection{
+    margin: 0px 86px;
+    padding: 0px ;
+}
+
+ .footerbox{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+ }
+ .launchimg{
+    /* border: 1px solid red; */
+    height: 700px;
+}
+.fboxs{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    align-content: end;
+    width: 52%;
+    text-align: end;
+
+}
+.servicelist{
+    /* border: 1px solid red; */
+    width: 50%; 
+}
+ 
+  }
+
+
+  @media(min-width:1440px){
+    .navigationmain{
+        /* border: 1px solid green; */
+        margin: 0px 30px;
+      }
+
+  }
